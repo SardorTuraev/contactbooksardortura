@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Book</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">  
+  
+  <div class="container-made container-sm py-5">
+
+    <h1 class="text-center mb-5 bg-primary text-white py-4 rounded-3">Contact Book</h1>
+
+    <form class="js-form" action="https://echo.htmlacademy.ru" method="POST">
+       <div class="box row">
+
+        <div class="col-lg-6">
+          <h2 class="h5">New contact form</h2>
+          <input class="d-block js-input-name form-control col-lg-4 d-block mb-3" type="text" placeholder="Name" required>
+          <input class="d-block js-input-info form-control col-lg-4 d-block mb-3" type="text" placeholder="Relationship"
+            required>
+          <input class="d-block js-input-phone-number form-control col-lg-4 d-block mb-3" type="number" placeholder="Phone" minlength="13" required>
+
+          <button class="btn btn-primary d-block w-100" type="submit">Add Contact</button>
+        </div>
+
+        <div class="col-lg-6 js-contact-list">
+        <h2 class="h5">New contact form</h2>
+          <div class="contact-item">
+            <p class="contact-item__name"></p>
+            <p class="contact-item__info"></p>
+            <a class="contact-item__phone"></a>
+          </div>
+        </div>
+
+
+
+
+       </div>
+    </form>
+
+
+  </div>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
